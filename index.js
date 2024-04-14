@@ -13,7 +13,7 @@ app.get("/:nome/:cargo", (req, res) => {
 });
 
 app.get("/blog", (req, res) => {
-  res.send("Seja bem-vindo ao meu blog");
+  res.send(`<h1>Seja bem-vindo ao meu blog</h1>`);
 });
 
 app.listen(8081, () => {
